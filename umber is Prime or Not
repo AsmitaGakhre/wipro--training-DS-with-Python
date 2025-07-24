@@ -1,0 +1,11 @@
+Q6: Check if a number is Prime or Not
+def check_prime(number):
+    if number <= 1:
+        print(f"{number} is NOT a Prime number.")
+        return
+    for i in range(2, int(number ** 0.5) + 1):
+        if number % i == 0:
+            print(f"{number} is NOT a Prime number.")
+            return
+    print(f"{number} is a Prime number.")
+
