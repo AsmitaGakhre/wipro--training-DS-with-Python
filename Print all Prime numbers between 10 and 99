@@ -1,0 +1,16 @@
+Print all Prime numbers between 10 and 99
+def print_primes_10_to_99():
+    print("Prime numbers between 10 and 99:")
+    for num in range(10, 100):
+        is_prime = True
+        if num <= 1:
+            is_prime = False
+        else:
+            for i in range(2, int(num ** 0.5) + 1):
+                if num % i == 0:
+                    is_prime = False
+                    break
+        if is_prime:
+            print(num, end=' ')
+    print("\n")
+
