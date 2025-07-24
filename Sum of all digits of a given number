@@ -1,0 +1,11 @@
+ Sum of all digits of a given number
+def sum_of_digits(number):
+    total = 0
+    temp = number
+    while temp > 0:
+        digit = temp % 10
+        total += digit
+        temp //= 10
+    print(f"Sum of digits of {number} is {total}")
+
+
