@@ -1,0 +1,6 @@
+Q4: Print numbers from 1 to 10 with tab space
+def print_1_to_10_tabbed():
+    print("Numbers from 1 to 10:")
+    for i in range(1, 11):
+        print(i, end='\t')
+    print("\n")
