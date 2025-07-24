@@ -1,0 +1,40 @@
+ Check if a number is a Palindrome
+def check_palindrome(number):
+    reversed_num = reverse_number(number)
+    if number == reversed_num:
+        print(f"{number} is a Palindrome")
+    else:
+        print(f"{number} is NOT a Palindrome")
+
+
+
+if _name_ == "_main_":
+    print("Q1:")
+    check_sign(0)
+
+    print("\nQ2:")
+    check_odd_even(7)
+
+    print("\nQ3:")
+    has_same_last_digit(27, 57)
+
+    print("\nQ4:")
+    print_1_to_10_tabbed()
+
+    print("Q5:")
+    print_even_23_to_57()
+
+    print("\nQ6:")
+    check_prime(31)
+
+    print("\nQ7:")
+    print_primes_10_to_99()
+
+    print("Q8:")
+    sum_of_digits(1234)
+
+    print("\nQ9:")
+    reverse_number(6789)
+
+    print("\nQ10:")
+    check_palindrome(1221)
